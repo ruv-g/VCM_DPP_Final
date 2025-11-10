@@ -1,0 +1,258 @@
+
+[[
+  {
+    "id": "VA-001",
+    "title": "Upper Class Seat",
+    "aircraft": "Airbus A350",
+    "part_type": "Seat",
+    "status": "available",
+    "co2_saved": 480,
+    "fmv": 2200,
+    "description": "Fully reclining Upper Class seat with recycled leather and aluminium frame.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Virgin_Atlantic_Upper_Class_seat.jpg",
+    "dpp": {
+      "composition": {"Leather": "Recycled", "Metal": "Aluminium", "Foam": "BioFoam"},
+      "certifications": ["Flammability certified", "Smoke/toxicity passed"],
+      "repair_history": ["Reupholstered 2024", "Frame refurbished 2023"],
+      "end_of_life": "Metal recycled, leather repurposed to furniture industry."
+    }
+  },
+  {
+    "id": "VA-002",
+    "title": "Economy Seat Frame",
+    "aircraft": "Boeing 787",
+    "part_type": "Seat",
+    "status": "reserved",
+    "co2_saved": 260,
+    "fmv": 900,
+    "description": "Lightweight economy frame constructed with recyclable alloys.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Aircraft_seats.jpg",
+    "dpp": {
+      "composition": {"Alloy": "Recycled aluminium", "Fasteners": "Steel"},
+      "certifications": ["Flammability certified"],
+      "repair_history": ["Bolts replaced 2022"],
+      "end_of_life": "Alloy reclaimed through closed-loop system."
+    }
+  },
+  {
+    "id": "VA-003",
+    "title": "Cabin Sidewall Panel",
+    "aircraft": "Airbus A330neo",
+    "part_type": "Panel",
+    "status": "available",
+    "co2_saved": 150,
+    "fmv": 400,
+    "description": "Lightweight honeycomb composite wall panel with sound insulation.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Aircraft_sidewall_panel.jpg",
+    "dpp": {
+      "composition": {"Composite": "Glass-fiber honeycomb", "Coating": "Fire-retardant resin"},
+      "certifications": ["Flammability certified", "Smoke/toxicity passed"],
+      "repair_history": ["Paint retouched 2023"],
+      "end_of_life": "Crushed and repurposed into insulation board."
+    }
+  },
+  {
+    "id": "VA-004",
+    "title": "Cabin Window Assembly",
+    "aircraft": "Boeing 787",
+    "part_type": "Window",
+    "status": "available",
+    "co2_saved": 90,
+    "fmv": 300,
+    "description": "Triple-layer acrylic window unit with integrated dimming film.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Airplane_window_view.jpg",
+    "dpp": {
+      "composition": {"Outer pane": "Acrylic", "Film": "Electro-chromic", "Frame": "Polycarbonate"},
+      "certifications": ["Flammability certified"],
+      "repair_history": ["Seal replaced 2024"],
+      "end_of_life": "Plastic layers separated and recycled via solvent-based recovery."
+    }
+  },
+  {
+    "id": "VA-005",
+    "title": "Overhead Bin Door",
+    "aircraft": "Airbus A350",
+    "part_type": "Storage",
+    "status": "sold",
+    "co2_saved": 210,
+    "fmv": 650,
+    "description": "Lightweight composite bin door with Virgin-branded laminate finish.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Overhead_bin_aircraft.jpg",
+    "dpp": {
+      "composition": {"Core": "Nomex honeycomb", "Skin": "Carbon fiber", "Laminate": "Decorative film"},
+      "certifications": ["Flammability certified"],
+      "repair_history": ["Latch replaced 2022"],
+      "end_of_life": "Carbon fiber reclaimed via pyrolysis."
+    }
+  },
+  {
+    "id": "VA-006",
+    "title": "LED Cabin Light Strip",
+    "aircraft": "Airbus A350",
+    "part_type": "Lighting",
+    "status": "available",
+    "co2_saved": 40,
+    "fmv": 180,
+    "description": "Low-energy LED strip for ambient cabin lighting, RGB adjustable.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Aircraft_cabin_lighting.jpg",
+    "dpp": {
+      "composition": {"LED": "Phosphor-coated", "Housing": "Recycled aluminium"},
+      "certifications": ["RoHS compliant", "Flammability certified"],
+      "repair_history": ["Rewired 2023"],
+      "end_of_life": "LEDs recycled through electronics waste stream."
+    }
+  },
+  {
+    "id": "VA-007",
+    "title": "Cabin Carpet Roll",
+    "aircraft": "Boeing 787",
+    "part_type": "Textile",
+    "status": "available",
+    "co2_saved": 130,
+    "fmv": 250,
+    "description": "Recyclable nylon carpet roll designed for long-haul durability.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Aircraft_cabin_carpet.jpg",
+    "dpp": {
+      "composition": {"Fiber": "Econyl recycled nylon", "Backing": "Thermoplastic"},
+      "certifications": ["Smoke/toxicity passed"],
+      "repair_history": ["Edge binding replaced 2024"],
+      "end_of_life": "Granulated for use in insulation panels."
+    }
+  },
+  {
+    "id": "VA-008",
+    "title": "Seat Belt Assembly",
+    "aircraft": "Airbus A330neo",
+    "part_type": "Safety",
+    "status": "reserved",
+    "co2_saved": 25,
+    "fmv": 90,
+    "description": "Safety belt with stainless-steel buckle and recycled polyester webbing.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Airplane_seatbelt.jpg",
+    "dpp": {
+      "composition": {"Webbing": "Recycled PET", "Metal": "Stainless steel"},
+      "certifications": ["FAA TSO-C22g"],
+      "repair_history": ["Webbing replaced 2023"],
+      "end_of_life": "Metal recycled, textile shredded for insulation fill."
+    }
+  },
+  {
+    "id": "VA-009",
+    "title": "Tray Table",
+    "aircraft": "Airbus A350",
+    "part_type": "Furnishing",
+    "status": "available",
+    "co2_saved": 60,
+    "fmv": 150,
+    "description": "Compact fold-out tray made from biocomposite polymer.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Aircraft_tray_table.jpg",
+    "dpp": {
+      "composition": {"Surface": "Bio-polymer", "Hinge": "Aluminium"},
+      "certifications": ["Flammability certified"],
+      "repair_history": ["Hinge replaced 2023"],
+      "end_of_life": "Surface polymer composted under industrial conditions."
+    }
+  },
+  {
+    "id": "VA-010",
+    "title": "Galley Worktop",
+    "aircraft": "Boeing 787",
+    "part_type": "Galley",
+    "status": "sold",
+    "co2_saved": 170,
+    "fmv": 600,
+    "description": "Durable composite galley surface resistant to heat and chemical agents.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Aircraft_galley.jpg",
+    "dpp": {
+      "composition": {"Surface": "Quartz-filled epoxy", "Substrate": "Aluminium honeycomb"},
+      "certifications": ["Flammability certified", "Food-safe surface"],
+      "repair_history": ["Polished 2023"],
+      "end_of_life": "Epoxy ground into filler for flooring material."
+    }
+  },
+  {
+    "id": "VA-011",
+    "title": "Lavatory Door Panel",
+    "aircraft": "Airbus A350",
+    "part_type": "Panel",
+    "status": "available",
+    "co2_saved": 80,
+    "fmv": 300,
+    "description": "Lightweight lavatory door with reinforced polymer skin.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Aircraft_lavatory_door.jpg",
+    "dpp": {
+      "composition": {"Core": "Foam", "Skin": "Thermoplastic composite"},
+      "certifications": ["Flammability certified"],
+      "repair_history": ["Hinge reinforced 2023"],
+      "end_of_life": "Thermoplastic components separated and recycled."
+    }
+  },
+  {
+    "id": "VA-012",
+    "title": "Crew Rest Mattress",
+    "aircraft": "Boeing 787",
+    "part_type": "Textile",
+    "status": "available",
+    "co2_saved": 55,
+    "fmv": 120,
+    "description": "Memory-foam mattress with organic cotton cover for crew rest area.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/97/Aircraft_crew_rest_area.jpg",
+    "dpp": {
+      "composition": {"Foam": "Bio-polyurethane", "Fabric": "Organic cotton"},
+      "certifications": ["Flammability certified"],
+      "repair_history": ["Cover replaced 2024"],
+      "end_of_life": "Foam shredded for use in padding products."
+    }
+  },
+  {
+    "id": "VA-013",
+    "title": "Cabin Divider Curtain",
+    "aircraft": "Airbus A330neo",
+    "part_type": "Textile",
+    "status": "reserved",
+    "co2_saved": 30,
+    "fmv": 100,
+    "description": "Virgin-red divider curtain made from flame-retardant polyester.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Airplane_cabin_curtain.jpg",
+    "dpp": {
+      "composition": {"Fabric": "Recycled polyester", "Coating": "Fire-retardant"},
+      "certifications": ["Flammability certified"],
+      "repair_history": ["Hooks replaced 2022"],
+      "end_of_life": "Fabric shredded for fiber reuse."
+    }
+  },
+  {
+    "id": "VA-014",
+    "title": "Cabin Handrail",
+    "aircraft": "Airbus A350",
+    "part_type": "Fixture",
+    "status": "available",
+    "co2_saved": 70,
+    "fmv": 180,
+    "description": "Aluminium handrail with antimicrobial coating.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Aircraft_interior_handrail.jpg",
+    "dpp": {
+      "composition": {"Metal": "Aluminium", "Coating": "Copper-based antimicrobial"},
+      "certifications": ["Flammability certified"],
+      "repair_history": ["Polished 2023"],
+      "end_of_life": "Aluminium remelted for reuse."
+    }
+  },
+  {
+    "id": "VA-015",
+    "title": "Overhead Air Vent Unit",
+    "aircraft": "Boeing 787",
+    "part_type": "Ventilation",
+    "status": "available",
+    "co2_saved": 85,
+    "fmv": 210,
+    "description": "Adjustable passenger air vent module in polymer housing.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Airplane_air_vent.jpg",
+    "dpp": {
+      "composition": {"Plastic": "Polycarbonate", "Nozzle": "ABS"},
+      "certifications": ["Flammability certified"],
+      "repair_history": ["Nozzle cleaned 2024"],
+      "end_of_life": "Plastics sorted for re-extrusion."
+    }
+  }
+]
