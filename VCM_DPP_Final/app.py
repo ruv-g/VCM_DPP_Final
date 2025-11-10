@@ -24,7 +24,7 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 # --- LOAD DATA ---
-DATA_FILE = os.path.join("data", "cabin_materials.json")
+DATA_FILE = os.path.join(os.path.dirname(__file__), "data", "cabin_materials.json")
 with open(DATA_FILE, "r", encoding="utf-8") as f:
     LISTINGS = json.load(f)
 
